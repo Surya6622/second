@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+</body>
+<script type="text/javascript">
+	var myvar=100;
+	function someFunction(){
+		function WhoisThis(){
+			var myvar=200;
+			alert("myvar="+myvar);
+			alert("this.myvar="+this.myvar);
+		}
+		WhoisThis();
+
+	}
+	someFunction();
+
+</script>
+</html>
